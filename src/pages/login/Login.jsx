@@ -1,5 +1,6 @@
-import React from 'react'
-import './login.css'
+import React from "react";
+import "./login.css";
+import { NavLink } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -23,11 +24,15 @@ const Login = () => {
           placeholder="Enter your password"
         />
 
-        <button className="loginButton">Login</button>
+        <button className="loginButton">
+          <NavLink to="/write">Login</NavLink>
+        </button>
       </form>
-      <button className="loginRegisterButton">Register</button>
+      <button className="loginRegisterButton">
+        <NavLink to="/register">Register</NavLink>
+      </button>
     </div>
   );
-}
+};
 
-export default Login
+export default Login;

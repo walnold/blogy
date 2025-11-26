@@ -1,5 +1,6 @@
 import React from "react";
 import "./register.css";
+import { NavLink } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -7,10 +8,8 @@ const Register = () => {
       <span className="registerTitle">Register</span>
       <form action="" className="registerForm">
         <label>Username</label>
-        <input
-          className="registerInput"
-          placeholder="Enter your username" />
-        
+        <input className="registerInput" placeholder="Enter your username" />
+
         <label>Email</label>
         <input
           type="email"
@@ -26,7 +25,9 @@ const Register = () => {
 
         <button className="registerButton">Register</button>
       </form>
-      <button className="registerLoginButton">Login</button>
+      <button className="registerLoginButton">
+        <NavLink to="/login">Login</NavLink>
+      </button>
     </div>
   );
 };

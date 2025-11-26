@@ -33,10 +33,10 @@ const SideBar = () => {
       <div className="sidebar-item">
         <span className="sidebar-title">FOLLOW US</span>
         <div className="sidebar-socials">
-          <i class="sidebar-icon fa-brands fa-facebook"></i>
-          <i class="sidebar-icon fa-brands fa-square-x-twitter"></i>
-          <i class="sidebar-icon fa-brands fa-square-pinterest"></i>
-          <i class="sidebar-icon fa-brands fa-square-instagram"></i>
+          <i className="sidebar-icon fa-brands fa-facebook"></i>
+          <i className="sidebar-icon fa-brands fa-square-x-twitter"></i>
+          <i className="sidebar-icon fa-brands fa-square-pinterest"></i>
+          <i className="sidebar-icon fa-brands fa-square-instagram"></i>
         </div>
       </div>
     </div>
